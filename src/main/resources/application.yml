@@ -1,0 +1,16 @@
+amazon:
+  endpoint: http://127.0.0.1:9000
+  access-key: minioadmin
+  secret-key: minioadmin
+  bucket-name: "files"
+
+Spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 0
+    timeout: 1000s
+
+  data:
+    mongodb:
+      uri: mongodb://127.0.0.1:27017/oss?maxPoolSize=10
